@@ -53,16 +53,16 @@ p {
 
 .time {
     color: rgb(153, 152, 152);
+    font-size: 0.6em;
 }
 
 .left-avatar {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
 .right-avatar {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
     align-items: center;
 }
